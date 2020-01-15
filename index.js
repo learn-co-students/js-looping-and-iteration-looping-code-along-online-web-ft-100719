@@ -15,7 +15,7 @@ function countDown(startingNumber) {
     let i = startingNumber;
 
     while (i >= 0) {
-        console.log(i)
-        i--
+        console.log(i);
+        i--;
     }
 }
