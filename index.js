@@ -9,7 +9,9 @@ function writeCards(cards)  {
     return messages; 
 }
 
-let countDown = 10;
-while (countDown <= 10 ) {
-    console.log(countDown--);
+function countDown() {
+    for (let countDown = 10; countDown > -1; countDown--) {
+        console.log(countDown);
+    }
 }
+
