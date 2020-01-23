@@ -3,7 +3,7 @@
 function writeCards(guests, occasion) {
     let new_array = []
     for (let i = 0; i < guests.length; i++) {
-        new_array.push `Thank you, ${guests[i]}, for the wonderful ${occasion} gift!`
+        new_array.push (`Thank you, ${guests[i]}, for the wonderful ${occasion} gift!`)
         //console.log(`Thank you, ${guests[i]}, for the wonderful ${occasion} gift!`);
     }
     return new_array
